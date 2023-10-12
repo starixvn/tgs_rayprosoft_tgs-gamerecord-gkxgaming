@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tgs.GameRecord.GKXGaming", "Tgs.GameRecord.GKXGaming\Tgs.GameRecord.GKXGaming.csproj", "{6FB87235-A097-4BF8-B736-03A180E5CDAB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tgs.GameRecord.GKXGaming.Common", "Tgs.GameRecord.GKXGaming.Common\Tgs.GameRecord.GKXGaming.Common.csproj", "{7026A800-88E0-47D8-A4F9-602CCDDDD4C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tgs.GameRecord.GKXGaming.Core", "Tgs.GameRecord.GKXGaming.Core\Tgs.GameRecord.GKXGaming.Core.csproj", "{52B1D298-09A5-4E2B-8CC9-C72580688333}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tgs.GameRecord.GKXGaming.Core.UnitTest", "Tgs.GameRecord.GKXGaming.Core.UnitTest\Tgs.GameRecord.GKXGaming.Core.UnitTest.csproj", "{5A333F22-167E-45C9-BE6F-D59E333900DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FB87235-A097-4BF8-B736-03A180E5CDAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FB87235-A097-4BF8-B736-03A180E5CDAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FB87235-A097-4BF8-B736-03A180E5CDAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FB87235-A097-4BF8-B736-03A180E5CDAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7026A800-88E0-47D8-A4F9-602CCDDDD4C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7026A800-88E0-47D8-A4F9-602CCDDDD4C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7026A800-88E0-47D8-A4F9-602CCDDDD4C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7026A800-88E0-47D8-A4F9-602CCDDDD4C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52B1D298-09A5-4E2B-8CC9-C72580688333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52B1D298-09A5-4E2B-8CC9-C72580688333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52B1D298-09A5-4E2B-8CC9-C72580688333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52B1D298-09A5-4E2B-8CC9-C72580688333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A333F22-167E-45C9-BE6F-D59E333900DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A333F22-167E-45C9-BE6F-D59E333900DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A333F22-167E-45C9-BE6F-D59E333900DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A333F22-167E-45C9-BE6F-D59E333900DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B056EA8-B6FD-43E0-8625-9B20B8542E9D}
+	EndGlobalSection
+EndGlobal
