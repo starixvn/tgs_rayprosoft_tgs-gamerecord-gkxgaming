@@ -2,4 +2,4 @@
 
 namespace Tgs.GameRecord.GKXGaming.Core.ApplicationServices;
 
-public record HandleRecordCommand(GameRecordInfo Record);
+public record HandleRecordCommand(GameWagerInfo Info);
