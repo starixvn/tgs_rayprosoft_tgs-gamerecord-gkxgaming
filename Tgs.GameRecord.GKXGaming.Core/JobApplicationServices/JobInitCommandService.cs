@@ -108,7 +108,7 @@ internal class JobInitCommandService : ICommandService<JobInitCommand>
                 gameProviderAgentMapper.Add(gameProviderConfig.Name, jobExecuteCommand);
 
                 RecurringJob.AddOrUpdate<IHangfireUtensil>(
-                    recurringJobId: gameProviderConfig.Name,
+                    recurringJobId: string.Concat(gameProviderConfig.Name, "-", gameProviderConfig.GameProviderConfigId),
                     methodCall: service => service.JobExecuteAsync(jobExecuteCommand),
                     cronExpression: Cron.Minutely(),
                     options: _recurringJobOptions);
