@@ -1,6 +1,6 @@
 ﻿namespace Tgs.GameRecord.GKXGaming.Common;
 
-public record GameRecordMessage
+public record GKXGamingGameRecordMessage
 {
     public Uri ApiUrl { get; init; } = default!;
     public string Deskey { get; init; } = default!;

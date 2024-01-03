@@ -18,7 +18,8 @@ public class HandleRecordCommandServiceUnitTest
         {
             GameProviderCode = "GKX",
             GameProviderConfiguration = "GKXConfiguration",
-            GameProviderHangfire = "gkx-schedule:hangfire:",
+            HangfirePrefix = "gamerecord-gkx-hangfire:",
+            HangfireLocking = "gamerecord-gkx-locking:",
             IntervalMinutes = 5,
             IntervalMinutesMax = 30,
             IntervalMinutesMinimum = 1
@@ -100,7 +101,8 @@ public class HandleRecordCommandServiceUnitTest
         {
             GameProviderCode = "GKX",
             GameProviderConfiguration = "GKXConfiguration",
-            GameProviderHangfire = "gkx-schedule:hangfire:",
+            HangfirePrefix = "gamerecord-gkx-hangfire:",
+            HangfireLocking = "gamerecord-gkx-locking:",
             IntervalMinutes = 5,
             IntervalMinutesMax = 30,
             IntervalMinutesMinimum = 1

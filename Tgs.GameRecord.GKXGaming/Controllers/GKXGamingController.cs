@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Tgs.GameRecord.GKXGaming.Common;
 using Tgs.GameRecord.GKXGaming.Core.ApplicationServices;
-using Tgs.GameRecord.GKXGaming.ViewModels;
 using Tgs.ServiceUtility;
 
 namespace Tgs.GameRecord.GKXGaming.Controllers;
@@ -20,7 +20,7 @@ public class GKXGamingController : ControllerBase
     ///
     ///     Post
     ///         {
-    ///             "apiRecordUrl": "https://wc-record.orz16.com/",
+    ///             "apiUrl": "https://wc-record.orz16.com/",
     ///             "deskey": "03CFE0179704BCDF",
     ///             "md5key": "337B01054C6FA208",
     ///             "agentId": "60073",
@@ -31,10 +31,10 @@ public class GKXGamingController : ControllerBase
     [HttpPost]
     public ValueTask GameRecordAsync(
         [FromServices] ICommandService<PullRecordCommand> service,
-        PullRecordViewModel source)
+        GKXGamingGameRecordMessage source)
     {
         var command = new PullRecordCommand(
-            ApiUrl: source.ApiRecordUrl,
+            ApiUrl: source.ApiUrl,
             Deskey: source.Deskey,
             Md5key: source.Md5key,
             AgentId: source.AgentId,
