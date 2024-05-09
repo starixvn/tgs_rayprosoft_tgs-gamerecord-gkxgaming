@@ -2,6 +2,6 @@
 
 public record GKXGamingNatsConst
 {
-    public const string SchedulePublish = "gp.gamerecord.gkx.schedule";
-    public const string ManualPublish = "gp.gamerecord.gkx.manual";
+	public const string SchedulePublish = "gp.gamerecord.gkx.schedule";
+	public const string ManualPublish = "gp.gamerecord.gkx.manual";
 }
